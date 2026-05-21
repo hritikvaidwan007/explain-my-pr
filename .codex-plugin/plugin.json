@@ -1,0 +1,12 @@
+{
+  "name": "explain-my-pr",
+  "version": "1.0.0",
+  "description": "Write manager-friendly merge-request explanation documents from git diffs",
+  "license": "MIT",
+  "keywords": [
+    "merge-request",
+    "documentation",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "explain-my-pr",
+  "description": "Agent skill: manager-friendly MR change explanation docs",
+  "owner": {
+    "name": "Hritik Vaidwan"
+  },
+  "plugins": [
+    {
+      "name": "explain-my-pr",
+      "description": "Write merge-request explanation documents for leads and managers",
+      "version": "1.0.0",
+      "source": "./"
+    }
+  ]
+}
