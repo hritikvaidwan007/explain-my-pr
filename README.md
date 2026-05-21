@@ -61,7 +61,7 @@ Save to docs/mr-change-explanations/metrics-middleware.md.
 | Public / resume | `main`, `feat/...` | `skills/.../examples/example-output.md` |
 | Internal only | Real names OK | `examples/*-private.md` (gitignored) |
 
-## Repository layout (Superpowers-style)
+## Repository layout
 
 ```
 explain-my-pr/
