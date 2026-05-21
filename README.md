@@ -82,17 +82,6 @@ explain-my-pr/
 └── scripts/install-local.sh
 ```
 
-## How this matches Superpowers
-
-[Superpowers](https://github.com/obra/superpowers) keeps skills in `skills/<name>/SKILL.md` and wires harnesses via small plugin manifests (`.cursor-plugin`, `.claude-plugin`, `.codex-plugin`). This repo uses the same pattern with a **single** skill.
-
-| Superpowers | This repo |
-|-------------|-----------|
-| `skills/writing-skills/SKILL.md` | `skills/explain-my-pr/SKILL.md` |
-| `.cursor-plugin` → `"skills": "./skills/"` | Same |
-| Claude marketplace + `/plugin install` | `.claude-plugin/marketplace.json` |
-| Codex `/plugins` search | `.codex-plugin/plugin.json` |
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
